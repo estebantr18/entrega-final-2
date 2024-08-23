@@ -1,0 +1,26 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin responsive-font($size-small, $size-medium, $size-large) {
+    font-size: $size-large;
+    
+    @media only screen and (max-width: 768px) {
+    font-size: $size-medium;
+    }
+
+    @media only screen and (max-width: 480px) {
+    font-size: $size-small;
+    }
+}
+
+@mixin button-style($bg-color, $text-color) {
+    padding: 10px 20px;
+    background-color: $bg-color;
+    color: $text-color;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

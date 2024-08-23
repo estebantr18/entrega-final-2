@@ -1,0 +1,25 @@
+h3, p {
+    color: $secondary-color;
+}
+
+.contenedor {
+    img {
+    width: 160px;
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+    }
+}
+
+.contenedor-2 {
+    img {
+    width: 1000px;
+    height: 400px;
+    display: grid;
+    }
+}
+
+img {
+    width: 31.25rem;
+    height: 18.75rem;
+}

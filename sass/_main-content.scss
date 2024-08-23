@@ -1,0 +1,20 @@
+ul {
+    background-color: $darkorange;
+}
+
+main {
+    justify-items: center;
+    display: grid;
+    margin: auto;
+    padding: 20px 20px;
+    gap: 1.25rem;
+}
+
+.contactos {
+    img {
+    width: 25rem;
+    height: 500px;
+    border: 20px solid #000;
+    display: block;
+    }
+}
