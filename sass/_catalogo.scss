@@ -1,0 +1,9 @@
+body{
+    .conteiner-card{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-template-rows: 31.25rem 31.25rem 31.25rem;
+    }
+    
+    
+}

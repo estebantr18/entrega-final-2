@@ -1,20 +1,15 @@
-ul {
-    background-color: $darkorange;
-}
-
-main {
-    justify-items: center;
-    display: grid;
-    margin: auto;
-    padding: 20px 20px;
-    gap: 1.25rem;
-}
 
 .contactos {
     img {
+    display: grid;
+    grid-row: inherit;
+    object-fit: contain;
+    grid-template-columns: 1;
+    justify-content: center;
     width: 25rem;
-    height: 500px;
-    border: 20px solid #000;
+    height: 15.625rem;
     display: block;
     }
 }
+
+

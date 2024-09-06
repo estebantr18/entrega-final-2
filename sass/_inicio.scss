@@ -15,4 +15,21 @@
     width: 100%;
     height: auto;
     }
+} 
+
+
+
+@media only screen and (max-width: 320px) {
+    body {
+        display: block; 
+        margin: 0 auto;
+    }
+
+    .inicio, .contenido {
+        grid-template-columns: 1fr; 
+    }
+
+    .inicio > div, .contenido > div {
+        grid-template-columns: 1fr; 
+    }
 }
