@@ -1,154 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="tienda dedicada ala venta y acesoramiento de motos y accesorios.."> 
-    <meta name="keywords" content="motos , accesorios , acesoramiento">
+    <meta name="description" content="Tienda dedicada a la venta y asesoramiento de motos y accesorios.">
+    <meta name="keywords" content="motos, accesorios, asesoramiento">
     <meta property="og:title" content="Motos AR">
     <meta property="og:site_name" content="MotosAR">
     <meta property="og:url" content="www.MotosAR.com">
     <meta property="og:description" content="">
     <meta property="og:type" content="website">
     <meta property="og:image" content="http://127.0.0.1:5500/assets/img/FIGMA/moto%20fondo.jpeg">
-    <meta name="author" content="esteban torres">
-    <meta name="Robots" content="index, follow">
-    <title>MotosAR , tienda especializada en ventas de motos y accesorios</title>
+    <meta name="author" content="Esteban Torres">
+    <meta name="robots" content="index, follow">
+    <title>Motos AR - Tienda especializada en venta de motos y accesorios</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-        <a class="menu" href="#">menu</a>
-        <button class="navbar" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbar">
-            <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-                <button class="dark dropdown-toggle" data-bs-toggle="dropdown" >
-                </button>
-                <ul class="dropdown-menu ">
-                <li><a class="dropdown-item" href="#">inicio</a></li>
-                <li><a class="dropdown-item" href="./pages/accesorios.html">accesorios</a></li>
-                <li><a class="dropdown-item" href="./pages/asesoramiento.html">asesoramiento</a></li>
-                <li><a class="dropdown-item" href="./pages/catalogo.html">catalogo</a></li>
-                <li><a class="dropdown-item" href="./pages/contactos.html">contacto</a></li>
+            <a class="navbar-brand" href="#">Motos AR</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Menú
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Inicio</a></li>
+                            <li><a class="dropdown-item" href="./pages/accesorios.html">Accesorios</a></li>
+                            <li><a class="dropdown-item" href="./pages/asesoramiento.html">Asesoramiento</a></li>
+                            <li><a class="dropdown-item" href="./pages/catalogo.html">Catálogo</a></li>
+                            <li><a class="dropdown-item" href="./pages/contactos.html">Contacto</a></li>
+                        </ul>
+                    </li>
                 </ul>
-            </li>
-            </ul>
-        </div>
+            </div>
         </div>
     </nav>
 
-
-<div>
-    <header>
+    <header class="text-center my-4">
         <div class="contenedor">
-            <img src="./assets/img/FIGMA/moto AR.jpeg" alt="">
+            <img src="./assets/img/FIGMA/moto AR.jpeg" alt="Imagen principal de Motos AR" class="img-fluid">
         </div>
-
-
     </header>
-    
+
     <main>
+        <section class="inicio text-center">
+            <h2>Tienda de Motos AR</h2>
+            <p>Encuentra la motocicleta perfecta y accesorios para tu aventura en dos ruedas en Motos AR.</p>
+            <a href="./pages/contactos.html">
+                <button type="button" class="btn btn-primary">Agendar cita</button>
+            </a>
+        </section>
 
-        <div class="inicio">
-            <div >
-                <div >
-                    <h2>Tienda de motos AR</h2>
-                    <p>Encuentra la motocicleta perfecta y accesorios para tu aventura
-                        en dos ruedas en Motos AR</p>
-                    <a href="./pages/contactos.html">
-                        <button type="button" class="btn btn-primary">Agendar cita</button>
-                </a>
-                </div>
-    
-                <div >
-                    <img src="./assets/img/FIGMA/moto fondo.jpeg" alt="">
-                </div>
-            </div>
-
-        </div>
-
-
-        <div class="variedad">
+        <section class="variedad text-center my-5">
             <h2>Variedad de motos y accesorios</h2>
-            <p>Encuentra todo lo que necesitas para tu pasión por las motos en un solo lugar</p>
-        </div>
+            <p>Encuentra todo lo que necesitas para tu pasión por las motos en un solo lugar.</p>
+        </section>
 
-        <div class="contenido">
-            <div >
-                <div >
+        <section class="contenido container">
+            <div class="row mb-5">
+                <div class="col-md-6">
                     <h3>Amplia selección de motocicletas y accesorios</h3>
-                    <p>En Motos AR, ofrecemos una amplia gama de motocicletas y accesorios para que encuentres
-                        todo lo que necesitas para tu pasión por las motos. Olvídate de buscar en diferentes lugares,
-                        ¡aquí lo tenemos todo!
-                    </p>
+                    <p>En Motos AR, ofrecemos una amplia gama de motocicletas y accesorios para que encuentres todo lo que necesitas para tu pasión por las motos. Olvídate de buscar en diferentes lugares, ¡aquí lo tenemos todo!</p>
                 </div>
-    
-                <div >
-                    <img src="./assets/img/FIGMA/FONDO-2.jpg" alt="">
+                <div class="col-md-6">
+                    <img src="./assets/img/FIGMA/FONDO-2.jpg" alt="Selección de motos" class="img-fluid">
                 </div>
             </div>
 
-
-            <div >
-                <div >
-                    <img src="./assets/img/FIGMA/accesoramiento.jpg" alt="">
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <img src="./assets/img/FIGMA/accesoramiento.jpg" alt="Asesoramiento" class="img-fluid">
                 </div>
-    
-                <div >
+                <div class="col-md-6">
                     <h3>Asesoramiento personalizado</h3>
-                    <p>Nuestro equipo de expertos en motos te brindará asesoramiento personalizado
-                        para que encuentres la motocicleta perfecta que se adapte a tus necesidades
-                        y estilo de conducción. ¡Confía en nosotros para tu próxima aventura en dos ruedas!
-                    </p>
+                    <p>Nuestro equipo de expertos en motos te brindará asesoramiento personalizado para que encuentres la motocicleta perfecta que se adapte a tus necesidades y estilo de conducción. ¡Confía en nosotros para tu próxima aventura en dos ruedas!</p>
                 </div>
             </div>
 
-
-            <div>
-                <div>
+            <div class="row mb-5">
+                <div class="col-md-6">
                     <h3>Facilidad de compra y entrega</h3>
-                    <p>En Motos AR, te ofrecemos una experiencia de compra
-                        sin complicaciones y una entrega rápida y segura para que puedas disfrutar 
-                        de tu nueva motocicleta y accesorios lo antes posible.
-                    </p>
+                    <p>En Motos AR, te ofrecemos una experiencia de compra sin complicaciones y una entrega rápida y segura para que puedas disfrutar de tu nueva motocicleta y accesorios lo antes posible.</p>
                 </div>
-    
-                <div >
-                    <img src="./assets/img/FIGMA/FONDO-4.jpg" alt="">
+                <div class="col-md-6">
+                    <img src="./assets/img/FIGMA/FONDO-4.jpg" alt="Facilidad de compra" class="img-fluid">
                 </div>
             </div>
+        </section>
 
-        </div>
-
-
-        <div class="contenedor-2">
-            <img src="./assets/img/FIGMA/trabajador.png" alt="">
-        </div>
-    </div>
-        
-    </section> 
+        <section class="contenedor-2 text-center my-5">
+            <img src="./assets/img/FIGMA/trabajador.png" alt="Trabajador" class="img-fluid">
+        </section>
     </main>
 
-
-
-
-
-
-
-
-    <footer class="footer">
-        <p>&copy; 2024 Motos Fantásticas. Todos los derechos reservados.</p>
+    
+    <footer class="footer text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 Motos AR. Todos los derechos reservados.</p>
     </footer>
 
-</div>
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
-</html>
 
+</html>
