@@ -218,3 +218,104 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+.navbar-dark .navbar-brand {
+  font-weight: bold;
+  font-size: 1.8rem;
+  color: #FFD700 !important; 
+}
+
+.navbar-dark .nav-link {
+  color: #FFD700 !important;
+  font-size: 1.1rem;
+}
+
+.navbar-dark .nav-link:hover {
+  color: #FFA500 !important; 
+  transition: color 0.3s ease;
+}
+
+.btn-primary, .btn-success, .btn-info {
+  background-color: #0056b3 !important; 
+  border: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover, .btn-success:hover, .btn-info:hover {
+  background-color: #003d80 !important;
+  color: #FFFFFF;
+}
+
+.inicio, .variedad, .contenido, .contenedor-2 {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.inicio h2, .variedad h2, .contenido h3 {
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.inicio p, .variedad p, .contenido p {
+  color: #666;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.footer {
+  background-color: #212529;
+  color: #e9ecef;
+  font-size: 0.9rem;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.productos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-card1, .container-card2, .container-card3, .container-card4,
+.container-card5, .container-card6, .container-card7, .container-card8 {
+  background-color: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.container-card1:hover, .container-card2:hover, .container-card3:hover, .container-card4:hover,
+.container-card5:hover, .container-card6:hover, .container-card7:hover, .container-card8:hover {
+  transform: scale(1.05);
+}
+
+.producto-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  color: #666;
+  font-size: 1rem;
+}
